@@ -4,3 +4,5 @@ The open source canvas is inspired by the business model canvas. The goal is to 
 
 The canvas is currently in an early stage in quite some work in progress. 
 
+Please file issues for further discussions. 
+
