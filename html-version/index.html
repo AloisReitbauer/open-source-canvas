@@ -1,0 +1,177 @@
+<html>
+<head>
+  <title>Open Source Canvas</title>
+  <style>
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  margin: 10px;
+}
+
+.blue {
+  background-color: #c2c4d2
+}
+
+.purple {
+  background-color: #9696cd
+}
+
+.lavender {
+  background-color: #b18add
+}
+
+#canvas {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  
+  overflow: hidden;
+}
+
+#canvas-strategic-goal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  width: 20%;
+  height: 75%;
+}
+
+#canvas-open-source {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  
+  width: 20%;
+  height: 75%;
+}
+
+#canvas-value {
+  position: absolute;
+  top:  0;
+  left: 40%;
+  
+  width: 20%;
+  height: calc(75% / 2);
+}
+
+#canvas-target-audience {
+  position: absolute;
+  top: calc(75% / 2);
+  left: 40%;
+  
+  width: 20%;
+  height: calc(75% / 2);
+}
+
+#canvas-contribution {
+  position: absolute;
+  top: 0;
+  left: 60%;
+  
+  width: 20%;
+  height: 75%;
+}
+
+#canvas-engagement-model {
+  position: absolute;
+  top: 0;
+  left: 80%;
+  
+  width: 20%;
+  height: calc(75% / 2);
+}
+
+#canvas-key-activities {
+  position: absolute;
+  top: calc(75% / 2);
+  left: 80%;
+  
+  width: 20%;
+  height: calc(75% / 2);
+}
+
+#canvas-business-value {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  width: 40%;
+  height: 25%;
+}
+
+#canvas-key-resources {
+  position: absolute;
+  top: 75%;
+  left: 40%;
+  width: 20%;
+  height: 25%;
+}
+
+#canvas-cost-structure {
+  position: absolute;
+  top: 75%;
+  left: 60%; 
+  width: 40%;
+  height: 25%;
+}
+
+.segment {
+  padding: 1px;
+  overflow: scroll;
+}
+
+.segment-inner {
+  width: calc(100% - 20px);
+  border: solid 3px black;
+  height: calc(100% - 20px);
+  margin: 4px;
+  padding: 3px;
+}
+
+.hidden {
+  display: none;
+}
+
+#input-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  heght: 200px;
+  background-color: black;
+}
+
+h2 {
+  padding: 3px;
+  margin:0px;
+  font-weight:bolder;
+  font-size: 18px;
+}
+
+p {
+  font-size: 12px;
+  font-weight: lighter;
+  margin: 0 4 4 0px;
+}
+
+</style>
+</head>
+<body>
+  <h1>Open Source Canvas v 0.2</h1>
+<div id="canvas">
+  <div id="canvas-strategic-goal" class="segment"><div class="segment-inner blue"><h2>Strategic Goal<h2><p>What is the strategic goal of the open source project?</p></h2></div></div>
+  <div id="canvas-open-source" class="segment "><div class="segment-inner blue"><h2>Open Source</h2><p>Why does it need to be open source?</p></div></div>
+  <div id="canvas-value" class="segment "><div class="segment-inner blue"><h2>Value</h2><p>What is the value for the community?</p></div></div>
+  <div id="canvas-target-audience" class="segment "><div class="segment-inner purple"><h2> Audience<h2><p>Who is the target audience?</p></h2></div></div>
+  <div id="canvas-contribution" class="segment "><div class="segment-inner purple"><h2>Contribution</h2><p>What is the motivation for the community to contribute?</p></div></div>
+  <div id="canvas-engagement-model" class="segment "><div class="segment-inner purple"><h2>Engagement Model</h2><p>How do you want the community to engage?</p></div></div>
+  <div id="canvas-key-activities" class="segment "><div class="segment-inner purple"><h2>Key Activities</h2><p>What key activites are required to achieve these goals?</p></div></div>
+  <div id="canvas-business-value" class="segment "><div class="segment-inner lavender"><h2>Business Value</h2><p>How does the success drive business success?</p></div></div>
+  <div id="canvas-key-resources" class="segment "><div class="segment-inner lavender"><h2>Key Resources</h2><p>Which ressources and talent are needed?</p></div></div>
+  <div id="canvas-cost-structure" class="segment "><div class="segment-inner lavender"><h2>Cost Structure</h2><p>What are the most important costs?</p></div></div>
+</div>
+</body>
+</html>
